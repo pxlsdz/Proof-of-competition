@@ -1,0 +1,129 @@
+﻿  CHAT.cpp
+g:\学习\项目\mfcqq最终版\客户端\kechengsj\chat.cpp(54): error C2664: “unsigned long inet_addr(const char *)”: 无法将参数 1 从“CString”转换为“const char *”
+  g:\学习\项目\mfcqq最终版\客户端\kechengsj\chat.cpp(54): note: 没有可用于执行该转换的用户定义的转换运算符，或者无法调用该运算符
+g:\学习\项目\mfcqq最终版\客户端\kechengsj\chat.cpp(94): error C2664: “int CWnd::MessageBoxW(LPCTSTR,LPCTSTR,UINT)”: 无法将参数 1 从“const char [11]”转换为“LPCTSTR”
+  g:\学习\项目\mfcqq最终版\客户端\kechengsj\chat.cpp(94): note: 与指向的类型无关；强制转换要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+g:\学习\项目\mfcqq最终版\客户端\kechengsj\chat.cpp(103): error C2664: “void ATL::CStringT<wchar_t,StrTraitMFC_DLL<wchar_t,ATL::ChTraitsCRT<wchar_t>>>::Format(UINT,...)”: 无法将参数 1 从“const char [35]”转换为“const wchar_t *”
+  g:\学习\项目\mfcqq最终版\客户端\kechengsj\chat.cpp(103): note: 与指向的类型无关；强制转换要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+g:\学习\项目\mfcqq最终版\客户端\kechengsj\chat.cpp(118): error C2664: “unsigned long inet_addr(const char *)”: 无法将参数 1 从“CString”转换为“const char *”
+  g:\学习\项目\mfcqq最终版\客户端\kechengsj\chat.cpp(118): note: 没有可用于执行该转换的用户定义的转换运算符，或者无法调用该运算符
+g:\学习\项目\mfcqq最终版\客户端\kechengsj\chat.cpp(120): error C2678: 二进制“+”: 没有找到接受“const char [6]”类型的左操作数的运算符(或没有可接受的转换)
+  d:\vs\vc\tools\msvc\14.16.27023\include\comutil.h(454): note: 可能是“_bstr_t operator +(const wchar_t *,const _bstr_t &)”
+  d:\vs\vc\tools\msvc\14.16.27023\include\comutil.h(444): note: 或    “_bstr_t operator +(const char *,const _bstr_t &)”
+  d:\vs\vc\tools\msvc\14.16.27023\atlmfc\include\atlsimpstr.h(643): note: 或    “ATL::CSimpleStringT<wchar_t,true> ATL::CSimpleStringT<wchar_t,true>::operator +(const ATL::CSimpleStringT<wchar_t,true> &,const ATL::CSimpleStringT<wchar_t,true> &)”[使用参数相关的查找找到]
+  d:\vs\vc\tools\msvc\14.16.27023\atlmfc\include\atlsimpstr.h(654): note: 或    “ATL::CSimpleStringT<wchar_t,true> ATL::CSimpleStringT<wchar_t,true>::operator +(const ATL::CSimpleStringT<wchar_t,true> &,const wchar_t *)”[使用参数相关的查找找到]
+  d:\vs\vc\tools\msvc\14.16.27023\atlmfc\include\atlsimpstr.h(665): note: 或    “ATL::CSimpleStringT<wchar_t,true> ATL::CSimpleStringT<wchar_t,true>::operator +(const wchar_t *,const ATL::CSimpleStringT<wchar_t,true> &)”[使用参数相关的查找找到]
+  d:\vs\vc\tools\msvc\14.16.27023\atlmfc\include\cstringt.h(2380): note: 或    “ATL::CStringT<wchar_t,StrTraitMFC_DLL<wchar_t,ATL::ChTraitsCRT<wchar_t>>> ATL::CStringT<wchar_t,StrTraitMFC_DLL<wchar_t,ATL::ChTraitsCRT<wchar_t>>>::operator +(const ATL::CStringT<wchar_t,StrTraitMFC_DLL<wchar_t,ATL::ChTraitsCRT<wchar_t>>> &,const ATL::CStringT<wchar_t,StrTraitMFC_DLL<wchar_t,ATL::ChTraitsCRT<wchar_t>>> &)”[使用参数相关的查找找到]
+  d:\vs\vc\tools\msvc\14.16.27023\atlmfc\include\cstringt.h(2391): note: 或    “ATL::CStringT<wchar_t,StrTraitMFC_DLL<wchar_t,ATL::ChTraitsCRT<wchar_t>>> ATL::operator +(const ATL::CStringT<wchar_t,StrTraitMFC_DLL<wchar_t,ATL::ChTraitsCRT<wchar_t>>> &,const wchar_t *)”[使用参数相关的查找找到]
+  d:\vs\vc\tools\msvc\14.16.27023\atlmfc\include\cstringt.h(2402): note: 或    “ATL::CStringT<wchar_t,StrTraitMFC_DLL<wchar_t,ATL::ChTraitsCRT<wchar_t>>> ATL::operator +(const wchar_t *,const ATL::CStringT<wchar_t,StrTraitMFC_DLL<wchar_t,ATL::ChTraitsCRT<wchar_t>>> &)”[使用参数相关的查找找到]
+  d:\vs\vc\tools\msvc\14.16.27023\atlmfc\include\cstringt.h(2419): note: 或    “ATL::CStringT<wchar_t,StrTraitMFC_DLL<wchar_t,ATL::ChTraitsCRT<wchar_t>>> ATL::CStringT<wchar_t,StrTraitMFC_DLL<wchar_t,ATL::ChTraitsCRT<wchar_t>>>::operator +(const ATL::CStringT<wchar_t,StrTraitMFC_DLL<wchar_t,ATL::ChTraitsCRT<wchar_t>>> &,char)”[使用参数相关的查找找到]
+  d:\vs\vc\tools\msvc\14.16.27023\atlmfc\include\cstringt.h(2431): note: 或    “ATL::CStringT<wchar_t,StrTraitMFC_DLL<wchar_t,ATL::ChTraitsCRT<wchar_t>>> ATL::CStringT<wchar_t,StrTraitMFC_DLL<wchar_t,ATL::ChTraitsCRT<wchar_t>>>::operator +(char,const ATL::CStringT<wchar_t,StrTraitMFC_DLL<wchar_t,ATL::ChTraitsCRT<wchar_t>>> &)”[使用参数相关的查找找到]
+  d:\vs\vc\tools\msvc\14.16.27023\atlmfc\include\cstringt.h(2444): note: 或    “ATL::CStringT<wchar_t,StrTraitMFC_DLL<wchar_t,ATL::ChTraitsCRT<wchar_t>>> ATL::CStringT<wchar_t,StrTraitMFC_DLL<wchar_t,ATL::ChTraitsCRT<wchar_t>>>::operator +(const ATL::CStringT<wchar_t,StrTraitMFC_DLL<wchar_t,ATL::ChTraitsCRT<wchar_t>>> &,wchar_t)”[使用参数相关的查找找到]
+  d:\vs\vc\tools\msvc\14.16.27023\atlmfc\include\cstringt.h(2456): note: 或    “ATL::CStringT<wchar_t,StrTraitMFC_DLL<wchar_t,ATL::ChTraitsCRT<wchar_t>>> ATL::CStringT<wchar_t,StrTraitMFC_DLL<wchar_t,ATL::ChTraitsCRT<wchar_t>>>::operator +(wchar_t,const ATL::CStringT<wchar_t,StrTraitMFC_DLL<wchar_t,ATL::ChTraitsCRT<wchar_t>>> &)”[使用参数相关的查找找到]
+  g:\学习\项目\mfcqq最终版\客户端\kechengsj\chat.cpp(120): note: 尝试匹配参数列表“(const char [6], CString)”时
+g:\学习\项目\mfcqq最终版\客户端\kechengsj\chat.cpp(122): error C2664: “char *strcpy(char *,const char *)”: 无法将参数 2 从“wchar_t *”转换为“const char *”
+  g:\学习\项目\mfcqq最终版\客户端\kechengsj\chat.cpp(122): note: 与指向的类型无关；强制转换要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+g:\学习\项目\mfcqq最终版\客户端\kechengsj\chat.cpp(123): error C2664: “char *strcpy(char *,const char *)”: 无法将参数 2 从“CString”转换为“const char *”
+  g:\学习\项目\mfcqq最终版\客户端\kechengsj\chat.cpp(123): note: 没有可用于执行该转换的用户定义的转换运算符，或者无法调用该运算符
+g:\学习\项目\mfcqq最终版\客户端\kechengsj\chat.cpp(166): error C2440: “初始化”: 无法从“char *”转换为“ATL::CStringT<wchar_t,StrTraitMFC_DLL<wchar_t,ATL::ChTraitsCRT<wchar_t>>>”
+  g:\学习\项目\mfcqq最终版\客户端\kechengsj\chat.cpp(166): note: class“ATL::CStringT<wchar_t,StrTraitMFC_DLL<wchar_t,ATL::ChTraitsCRT<wchar_t>>>”的构造函数声明为“explicit”
+  kechengsjDlg.cpp
+g:\学习\项目\mfcqq最终版\客户端\kechengsj\kechengsjdlg.cpp(263): error C2664: “int CWnd::MessageBoxW(LPCTSTR,LPCTSTR,UINT)”: 无法将参数 1 从“const char [23]”转换为“LPCTSTR”
+  g:\学习\项目\mfcqq最终版\客户端\kechengsj\kechengsjdlg.cpp(263): note: 与指向的类型无关；强制转换要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+g:\学习\项目\mfcqq最终版\客户端\kechengsj\kechengsjdlg.cpp(269): error C2440: “初始化”: 无法从“const char *”转换为“ATL::CStringT<wchar_t,StrTraitMFC_DLL<wchar_t,ATL::ChTraitsCRT<wchar_t>>>”
+  g:\学习\项目\mfcqq最终版\客户端\kechengsj\kechengsjdlg.cpp(269): note: class“ATL::CStringT<wchar_t,StrTraitMFC_DLL<wchar_t,ATL::ChTraitsCRT<wchar_t>>>”的构造函数声明为“explicit”
+g:\学习\项目\mfcqq最终版\客户端\kechengsj\kechengsjdlg.cpp(274): error C2039: “GetWindowTextA”: 不是“CIPAddressCtrl”的成员
+  d:\vs\vc\tools\msvc\14.16.27023\atlmfc\include\afxcmn.h(2372): note: 参见“CIPAddressCtrl”的声明
+g:\学习\项目\mfcqq最终版\客户端\kechengsj\kechengsjdlg.cpp(278): error C2664: “unsigned long inet_addr(const char *)”: 无法将参数 1 从“CString”转换为“const char *”
+  g:\学习\项目\mfcqq最终版\客户端\kechengsj\kechengsjdlg.cpp(278): note: 没有可用于执行该转换的用户定义的转换运算符，或者无法调用该运算符
+g:\学习\项目\mfcqq最终版\客户端\kechengsj\kechengsjdlg.cpp(281): error C2664: “int CWnd::MessageBoxW(LPCTSTR,LPCTSTR,UINT)”: 无法将参数 1 从“const char *”转换为“LPCTSTR”
+  g:\学习\项目\mfcqq最终版\客户端\kechengsj\kechengsjdlg.cpp(281): note: 与指向的类型无关；强制转换要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+g:\学习\项目\mfcqq最终版\客户端\kechengsj\kechengsjdlg.cpp(288): error C2664: “int CWnd::MessageBoxW(LPCTSTR,LPCTSTR,UINT)”: 无法将参数 1 从“const char [23]”转换为“LPCTSTR”
+  g:\学习\项目\mfcqq最终版\客户端\kechengsj\kechengsjdlg.cpp(288): note: 与指向的类型无关；强制转换要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+g:\学习\项目\mfcqq最终版\客户端\kechengsj\kechengsjdlg.cpp(292): error C2664: “char *strcpy(char *,const char *)”: 无法将参数 2 从“CString”转换为“const char *”
+  g:\学习\项目\mfcqq最终版\客户端\kechengsj\kechengsjdlg.cpp(292): note: 没有可用于执行该转换的用户定义的转换运算符，或者无法调用该运算符
+g:\学习\项目\mfcqq最终版\客户端\kechengsj\kechengsjdlg.cpp(293): error C2664: “char *strcpy(char *,const char *)”: 无法将参数 2 从“CString”转换为“const char *”
+  g:\学习\项目\mfcqq最终版\客户端\kechengsj\kechengsjdlg.cpp(293): note: 没有可用于执行该转换的用户定义的转换运算符，或者无法调用该运算符
+g:\学习\项目\mfcqq最终版\客户端\kechengsj\kechengsjdlg.cpp(306): error C2039: “GetWindowTextA”: 不是“CIPAddressCtrl”的成员
+  d:\vs\vc\tools\msvc\14.16.27023\atlmfc\include\afxcmn.h(2372): note: 参见“CIPAddressCtrl”的声明
+g:\学习\项目\mfcqq最终版\客户端\kechengsj\kechengsjdlg.cpp(322): error C2440: “初始化”: 无法从“const char *”转换为“ATL::CStringT<wchar_t,StrTraitMFC_DLL<wchar_t,ATL::ChTraitsCRT<wchar_t>>>”
+  g:\学习\项目\mfcqq最终版\客户端\kechengsj\kechengsjdlg.cpp(322): note: class“ATL::CStringT<wchar_t,StrTraitMFC_DLL<wchar_t,ATL::ChTraitsCRT<wchar_t>>>”的构造函数声明为“explicit”
+g:\学习\项目\mfcqq最终版\客户端\kechengsj\kechengsjdlg.cpp(330): error C2664: “void ATL::CStringT<wchar_t,StrTraitMFC_DLL<wchar_t,ATL::ChTraitsCRT<wchar_t>>>::Format(UINT,...)”: 无法将参数 1 从“const char [6]”转换为“const wchar_t *”
+  g:\学习\项目\mfcqq最终版\客户端\kechengsj\kechengsjdlg.cpp(330): note: 与指向的类型无关；强制转换要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+g:\学习\项目\mfcqq最终版\客户端\kechengsj\kechengsjdlg.cpp(333): error C2664: “void ATL::CStringT<wchar_t,StrTraitMFC_DLL<wchar_t,ATL::ChTraitsCRT<wchar_t>>>::Format(UINT,...)”: 无法将参数 1 从“const char [3]”转换为“const wchar_t *”
+  g:\学习\项目\mfcqq最终版\客户端\kechengsj\kechengsjdlg.cpp(333): note: 与指向的类型无关；强制转换要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+g:\学习\项目\mfcqq最终版\客户端\kechengsj\kechengsjdlg.cpp(342): error C2664: “int CWnd::MessageBoxW(LPCTSTR,LPCTSTR,UINT)”: 无法将参数 1 从“const char [11]”转换为“LPCTSTR”
+  g:\学习\项目\mfcqq最终版\客户端\kechengsj\kechengsjdlg.cpp(342): note: 与指向的类型无关；强制转换要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+g:\学习\项目\mfcqq最终版\客户端\kechengsj\kechengsjdlg.cpp(356): error C2664: “int CWnd::MessageBoxW(LPCTSTR,LPCTSTR,UINT)”: 无法将参数 1 从“const char [11]”转换为“LPCTSTR”
+  g:\学习\项目\mfcqq最终版\客户端\kechengsj\kechengsjdlg.cpp(356): note: 与指向的类型无关；强制转换要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+g:\学习\项目\mfcqq最终版\客户端\kechengsj\kechengsjdlg.cpp(370): error C2440: “初始化”: 无法从“char [1000]”转换为“ATL::CStringT<wchar_t,StrTraitMFC_DLL<wchar_t,ATL::ChTraitsCRT<wchar_t>>>”
+  g:\学习\项目\mfcqq最终版\客户端\kechengsj\kechengsjdlg.cpp(370): note: class“ATL::CStringT<wchar_t,StrTraitMFC_DLL<wchar_t,ATL::ChTraitsCRT<wchar_t>>>”的构造函数声明为“explicit”
+g:\学习\项目\mfcqq最终版\客户端\kechengsj\kechengsjdlg.cpp(377): warning C4309: “=”: 截断常量值
+  LIST.cpp
+g:\学习\项目\mfcqq最终版\客户端\kechengsj\list.cpp(45): warning C4309: “初始化”: 截断常量值
+g:\学习\项目\mfcqq最终版\客户端\kechengsj\list.cpp(83): error C2664: “int CListCtrl::InsertColumn(int,LPCTSTR,int,int,int)”: 无法将参数 2 从“const char [7]”转换为“LPCTSTR”
+  g:\学习\项目\mfcqq最终版\客户端\kechengsj\list.cpp(83): note: 与指向的类型无关；强制转换要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+g:\学习\项目\mfcqq最终版\客户端\kechengsj\list.cpp(84): error C2664: “int CListCtrl::InsertColumn(int,LPCTSTR,int,int,int)”: 无法将参数 2 从“const char [5]”转换为“LPCTSTR”
+  g:\学习\项目\mfcqq最终版\客户端\kechengsj\list.cpp(84): note: 与指向的类型无关；强制转换要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+g:\学习\项目\mfcqq最终版\客户端\kechengsj\list.cpp(87): error C2664: “void ATL::CStringT<wchar_t,StrTraitMFC_DLL<wchar_t,ATL::ChTraitsCRT<wchar_t>>>::Format(UINT,...)”: 无法将参数 1 从“const char [12]”转换为“const wchar_t *”
+  g:\学习\项目\mfcqq最终版\客户端\kechengsj\list.cpp(87): note: 与指向的类型无关；强制转换要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+g:\学习\项目\mfcqq最终版\客户端\kechengsj\list.cpp(91): error C2664: “void ATL::CStringT<wchar_t,StrTraitMFC_DLL<wchar_t,ATL::ChTraitsCRT<wchar_t>>>::Format(UINT,...)”: 无法将参数 1 从“const char [3]”转换为“const wchar_t *”
+  g:\学习\项目\mfcqq最终版\客户端\kechengsj\list.cpp(91): note: 与指向的类型无关；强制转换要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+g:\学习\项目\mfcqq最终版\客户端\kechengsj\list.cpp(92): error C2664: “int strcmp(const char *,const char *)”: 无法将参数 2 从“wchar_t *”转换为“const char *”
+  g:\学习\项目\mfcqq最终版\客户端\kechengsj\list.cpp(92): note: 与指向的类型无关；强制转换要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+g:\学习\项目\mfcqq最终版\客户端\kechengsj\list.cpp(93): error C2664: “int CListCtrl::InsertItem(UINT,int,LPCTSTR,UINT,UINT,int,LPARAM)”: 无法将参数 2 从“char [1000]”转换为“LPCTSTR”
+  g:\学习\项目\mfcqq最终版\客户端\kechengsj\list.cpp(93): note: 与指向的类型无关；强制转换要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+g:\学习\项目\mfcqq最终版\客户端\kechengsj\list.cpp(94): error C2664: “BOOL CListCtrl::SetItemText(int,int,LPCTSTR)”: 无法将参数 3 从“char [1000]”转换为“LPCTSTR”
+  g:\学习\项目\mfcqq最终版\客户端\kechengsj\list.cpp(94): note: 与指向的类型无关；强制转换要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+g:\学习\项目\mfcqq最终版\客户端\kechengsj\list.cpp(95): error C2664: “BOOL CListCtrl::SetItemText(int,int,LPCTSTR)”: 无法将参数 3 从“const char [5]”转换为“LPCTSTR”
+  g:\学习\项目\mfcqq最终版\客户端\kechengsj\list.cpp(95): note: 与指向的类型无关；强制转换要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+g:\学习\项目\mfcqq最终版\客户端\kechengsj\list.cpp(148): error C2664: “char *strcpy(char *,const char *)”: 无法将参数 2 从“wchar_t *”转换为“const char *”
+  g:\学习\项目\mfcqq最终版\客户端\kechengsj\list.cpp(148): note: 与指向的类型无关；强制转换要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+g:\学习\项目\mfcqq最终版\客户端\kechengsj\list.cpp(164): error C2664: “void ATL::CStringT<wchar_t,StrTraitMFC_DLL<wchar_t,ATL::ChTraitsCRT<wchar_t>>>::Format(UINT,...)”: 无法将参数 1 从“const char [12]”转换为“const wchar_t *”
+  g:\学习\项目\mfcqq最终版\客户端\kechengsj\list.cpp(164): note: 与指向的类型无关；强制转换要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+g:\学习\项目\mfcqq最终版\客户端\kechengsj\list.cpp(168): error C2664: “void ATL::CStringT<wchar_t,StrTraitMFC_DLL<wchar_t,ATL::ChTraitsCRT<wchar_t>>>::Format(UINT,...)”: 无法将参数 1 从“const char [3]”转换为“const wchar_t *”
+  g:\学习\项目\mfcqq最终版\客户端\kechengsj\list.cpp(168): note: 与指向的类型无关；强制转换要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+g:\学习\项目\mfcqq最终版\客户端\kechengsj\list.cpp(169): error C2664: “int strcmp(const char *,const char *)”: 无法将参数 2 从“wchar_t *”转换为“const char *”
+  g:\学习\项目\mfcqq最终版\客户端\kechengsj\list.cpp(169): note: 与指向的类型无关；强制转换要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+g:\学习\项目\mfcqq最终版\客户端\kechengsj\list.cpp(170): error C2664: “int CListCtrl::InsertItem(UINT,int,LPCTSTR,UINT,UINT,int,LPARAM)”: 无法将参数 2 从“char [1000]”转换为“LPCTSTR”
+  g:\学习\项目\mfcqq最终版\客户端\kechengsj\list.cpp(170): note: 与指向的类型无关；强制转换要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+g:\学习\项目\mfcqq最终版\客户端\kechengsj\list.cpp(171): error C2664: “BOOL CListCtrl::SetItemText(int,int,LPCTSTR)”: 无法将参数 3 从“char [1000]”转换为“LPCTSTR”
+  g:\学习\项目\mfcqq最终版\客户端\kechengsj\list.cpp(171): note: 与指向的类型无关；强制转换要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+g:\学习\项目\mfcqq最终版\客户端\kechengsj\list.cpp(172): error C2664: “BOOL CListCtrl::SetItemText(int,int,LPCTSTR)”: 无法将参数 3 从“const char [5]”转换为“LPCTSTR”
+  g:\学习\项目\mfcqq最终版\客户端\kechengsj\list.cpp(172): note: 与指向的类型无关；强制转换要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+g:\学习\项目\mfcqq最终版\客户端\kechengsj\list.cpp(180): error C2664: “int CWnd::MessageBoxW(LPCTSTR,LPCTSTR,UINT)”: 无法将参数 1 从“const char [15]”转换为“LPCTSTR”
+  g:\学习\项目\mfcqq最终版\客户端\kechengsj\list.cpp(180): note: 与指向的类型无关；强制转换要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+g:\学习\项目\mfcqq最终版\客户端\kechengsj\list.cpp(183): error C2664: “char *strcpy(char *,const char *)”: 无法将参数 2 从“CString”转换为“const char *”
+  g:\学习\项目\mfcqq最终版\客户端\kechengsj\list.cpp(183): note: 没有可用于执行该转换的用户定义的转换运算符，或者无法调用该运算符
+g:\学习\项目\mfcqq最终版\客户端\kechengsj\list.cpp(208): error C2664: “int CWnd::MessageBoxW(LPCTSTR,LPCTSTR,UINT)”: 无法将参数 1 从“const char [11]”转换为“LPCTSTR”
+  g:\学习\项目\mfcqq最终版\客户端\kechengsj\list.cpp(208): note: 与指向的类型无关；强制转换要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+g:\学习\项目\mfcqq最终版\客户端\kechengsj\list.cpp(217): error C2664: “void ATL::CStringT<wchar_t,StrTraitMFC_DLL<wchar_t,ATL::ChTraitsCRT<wchar_t>>>::Format(UINT,...)”: 无法将参数 1 从“const char [28]”转换为“const wchar_t *”
+  g:\学习\项目\mfcqq最终版\客户端\kechengsj\list.cpp(217): note: 与指向的类型无关；强制转换要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+g:\学习\项目\mfcqq最终版\客户端\kechengsj\list.cpp(304): error C2440: “初始化”: 无法从“char [100]”转换为“ATL::CStringT<wchar_t,StrTraitMFC_DLL<wchar_t,ATL::ChTraitsCRT<wchar_t>>>”
+  g:\学习\项目\mfcqq最终版\客户端\kechengsj\list.cpp(304): note: class“ATL::CStringT<wchar_t,StrTraitMFC_DLL<wchar_t,ATL::ChTraitsCRT<wchar_t>>>”的构造函数声明为“explicit”
+g:\学习\项目\mfcqq最终版\客户端\kechengsj\list.cpp(315): error C2664: “char *strcpy(char *,const char *)”: 无法将参数 2 从“CString”转换为“const char *”
+  g:\学习\项目\mfcqq最终版\客户端\kechengsj\list.cpp(315): note: 没有可用于执行该转换的用户定义的转换运算符，或者无法调用该运算符
+g:\学习\项目\mfcqq最终版\客户端\kechengsj\list.cpp(318): error C2664: “void ATL::CStringT<wchar_t,StrTraitMFC_DLL<wchar_t,ATL::ChTraitsCRT<wchar_t>>>::Format(UINT,...)”: 无法将参数 1 从“const char [10]”转换为“const wchar_t *”
+  g:\学习\项目\mfcqq最终版\客户端\kechengsj\list.cpp(318): note: 与指向的类型无关；强制转换要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+g:\学习\项目\mfcqq最终版\客户端\kechengsj\list.cpp(322): error C2664: “void ATL::CStringT<wchar_t,StrTraitMFC_DLL<wchar_t,ATL::ChTraitsCRT<wchar_t>>>::Format(UINT,...)”: 无法将参数 1 从“const char [17]”转换为“const wchar_t *”
+  g:\学习\项目\mfcqq最终版\客户端\kechengsj\list.cpp(322): note: 与指向的类型无关；强制转换要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+g:\学习\项目\mfcqq最终版\客户端\kechengsj\list.cpp(323): error C2664: “int CWnd::MessageBoxW(LPCTSTR,LPCTSTR,UINT)”: 无法将参数 2 从“const char [5]”转换为“LPCTSTR”
+  g:\学习\项目\mfcqq最终版\客户端\kechengsj\list.cpp(323): note: 与指向的类型无关；强制转换要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+  REGISRER.cpp
+g:\学习\项目\mfcqq最终版\客户端\kechengsj\regisrer.cpp(102): error C2664: “int CWnd::MessageBoxW(LPCTSTR,LPCTSTR,UINT)”: 无法将参数 1 从“const char [23]”转换为“LPCTSTR”
+  g:\学习\项目\mfcqq最终版\客户端\kechengsj\regisrer.cpp(102): note: 与指向的类型无关；强制转换要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+g:\学习\项目\mfcqq最终版\客户端\kechengsj\regisrer.cpp(108): error C2440: “初始化”: 无法从“const char *”转换为“ATL::CStringT<wchar_t,StrTraitMFC_DLL<wchar_t,ATL::ChTraitsCRT<wchar_t>>>”
+  g:\学习\项目\mfcqq最终版\客户端\kechengsj\regisrer.cpp(108): note: class“ATL::CStringT<wchar_t,StrTraitMFC_DLL<wchar_t,ATL::ChTraitsCRT<wchar_t>>>”的构造函数声明为“explicit”
+g:\学习\项目\mfcqq最终版\客户端\kechengsj\regisrer.cpp(113): error C2039: “GetWindowTextA”: 不是“CIPAddressCtrl”的成员
+  d:\vs\vc\tools\msvc\14.16.27023\atlmfc\include\afxcmn.h(2372): note: 参见“CIPAddressCtrl”的声明
+g:\学习\项目\mfcqq最终版\客户端\kechengsj\regisrer.cpp(118): error C2664: “unsigned long inet_addr(const char *)”: 无法将参数 1 从“CString”转换为“const char *”
+  g:\学习\项目\mfcqq最终版\客户端\kechengsj\regisrer.cpp(118): note: 没有可用于执行该转换的用户定义的转换运算符，或者无法调用该运算符
+g:\学习\项目\mfcqq最终版\客户端\kechengsj\regisrer.cpp(122): error C2664: “int CWnd::MessageBoxW(LPCTSTR,LPCTSTR,UINT)”: 无法将参数 1 从“const char *”转换为“LPCTSTR”
+  g:\学习\项目\mfcqq最终版\客户端\kechengsj\regisrer.cpp(122): note: 与指向的类型无关；强制转换要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+g:\学习\项目\mfcqq最终版\客户端\kechengsj\regisrer.cpp(132): error C2664: “char *strcpy(char *,const char *)”: 无法将参数 2 从“CString”转换为“const char *”
+  g:\学习\项目\mfcqq最终版\客户端\kechengsj\regisrer.cpp(132): note: 没有可用于执行该转换的用户定义的转换运算符，或者无法调用该运算符
+g:\学习\项目\mfcqq最终版\客户端\kechengsj\regisrer.cpp(133): error C2664: “char *strcpy(char *,const char *)”: 无法将参数 2 从“CString”转换为“const char *”
+  g:\学习\项目\mfcqq最终版\客户端\kechengsj\regisrer.cpp(133): note: 没有可用于执行该转换的用户定义的转换运算符，或者无法调用该运算符
+g:\学习\项目\mfcqq最终版\客户端\kechengsj\regisrer.cpp(138): error C2664: “int CWnd::MessageBoxW(LPCTSTR,LPCTSTR,UINT)”: 无法将参数 1 从“char [1000]”转换为“LPCTSTR”
+  g:\学习\项目\mfcqq最终版\客户端\kechengsj\regisrer.cpp(138): note: 与指向的类型无关；强制转换要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+  正在生成代码...
