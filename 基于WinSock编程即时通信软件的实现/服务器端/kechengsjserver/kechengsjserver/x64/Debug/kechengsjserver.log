@@ -1,0 +1,9 @@
+﻿  pch.cpp
+  kechengsjserver.cpp
+c:\users\徐某人\desktop\123\服务器端\kechengsjserver\kechengsjserver\kechengsjserver.cpp(167): warning C4018: “<”: 有符号/无符号不匹配
+c:\users\徐某人\desktop\123\服务器端\kechengsjserver\kechengsjserver\kechengsjserver.cpp(177): warning C4018: “<”: 有符号/无符号不匹配
+c:\users\徐某人\desktop\123\服务器端\kechengsjserver\kechengsjserver\kechengsjserver.cpp(233): warning C4018: “<”: 有符号/无符号不匹配
+c:\users\徐某人\desktop\123\服务器端\kechengsjserver\kechengsjserver\kechengsjserver.cpp(319): warning C4018: “<”: 有符号/无符号不匹配
+c:\users\徐某人\desktop\123\服务器端\kechengsjserver\kechengsjserver\kechengsjserver.cpp(358): warning C4018: “<”: 有符号/无符号不匹配
+c:\users\徐某人\desktop\123\服务器端\kechengsjserver\kechengsjserver\kechengsjserver.cpp(34): warning C4172: 返回局部变量或临时变量的地址: temp
+  kechengsjserver.vcxproj -> C:\Users\徐某人\Desktop\123\服务器端\kechengsjserver\x64\Debug\kechengsjserver.exe
